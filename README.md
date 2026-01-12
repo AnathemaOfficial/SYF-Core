@@ -66,6 +66,8 @@ The following section is provided for experimentation only and does not modify, 
 
 ## Developer Entry Point (Non-Canon Instrumentation)
 
+Note: This section is illustrative only and non-canonical; derivation of F, E, or K depends on the observed system and must not violate the core axioms.
+
 ### Purpose
 
 SYF-Core defines a law-bearing invariant, not a product or framework.  
