@@ -1,0 +1,12 @@
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts (if any future tests/implementations)
+*.pyc
+__pycache__/
+node_modules/
