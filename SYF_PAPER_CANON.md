@@ -226,9 +226,18 @@ It simply stands.
 
 ## References
 
-- SYF-Core Repository: [https://github.com/syfcore/SYF-Core](https://github.com/syfcore/SYF-Core)
-- SYF-Lab Repository: [https://github.com/syfcore/SYF-Lab](https://github.com/syfcore/SYF-Lab)
+---
 
+## Related Work (Non-Canonical)
+
+The following repositories provide experimental and reference material
+derived from this canonical law. They do not modify or extend SYF-Core.
+
+- **SYF-Lab** — Experimental and observational framework  
+  https://github.com/AnathemaOfficial/SYF-Lab
+
+- **SYF-Minimal** — Non-canonical reference implementation  
+  https://github.com/AnathemaOfficial/SYF-Minimal
 ---
 
 **Machine World Only.**
