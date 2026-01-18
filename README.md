@@ -1,3 +1,6 @@
+![Status: CANONICAL / SEALED](https://img.shields.io/badge/STATUS-CANONICAL%20%2F%20SEALED-0b1c2d?style=for-the-badge)
+
+
 # SYF — Systemic Fire Law
 
 **Status**: Canonical · v0.1-docs  
@@ -40,16 +43,35 @@ This repository contains only what is necessary to **reproduce and audit the law
 
 ## Structure
 
+This repository is a **canonical documentation repository**.
+Markdown files are the source of truth. PDFs are sealed exports.
+
 ```
 docs/
-├── SyFF.md          # The formula
-├── R.md             # The invariant output
-├── FIREPLANK.md     # The safety floor
-├── CORE_AXIOMS.md   # Non-negotiable constraints
-├── SYF_CORE.md      # Full specification
-└── appendix/
-    └── SYFBOT_CANON.md  # Guardian specification (non-canon)
-```
+├── genesis/ # PRIMARY CANON (Genesis Layer)
+│ 	├── FOUNDATION.md # SYF foundational law
+│ 	├── WHY_MORAL_LAWS_FAIL.md
+│ 	├── LEXICON.md # Canonical vocabulary
+│ 	└── BUNDLE.md # Sealing & integrity manifest
+│
+├── SyFF.md # The formula (support canon)
+├── R.md # The invariant output
+├── FIREPLANK.md # The safety floor
+├── CORE_AXIOMS.md # Non-negotiable constraints
+├── SYF_CORE.md # Full technical specification
+│
+└── appendix/ # Supporting or experimental documents. (Not part of the SYF canonical law.)
+	└── SYFBOT_CANON.md # Guardian specification (non-canon)```
+releases/
+├── genesis/
+│ 	├── SYF_Genesis_v0.2.pdf
+│ 	├── SYF_Genesis_Foundation_v0.1.pdf
+│ 	└── SYF_Genesis_Public_Short_v1.0.pdf
+│
+└── checksums/
+	├── SYF_Genesis_v0.2.sha256
+	├── SYF_Genesis_Foundation_v0.1.sha256
+	└── SYF_Genesis_Public_Short_v1.0.sha256
 
 ## For Researchers
 
