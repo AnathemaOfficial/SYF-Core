@@ -1,25 +1,24 @@
-# Security & Provenance Contact — SYF-Core
-
 STATUS: NON-CANON
 ROLE: SECURITY / PROVENANCE METADATA
 SCOPE: Verification and reporting only. Not part of SYF law.
 
-This file is non-canonical metadata describing how to report issues or verify canonical artifacts.
+# Security & Provenance Contact — SYF-Core
+
+This file is non-canonical metadata describing how to report integrity or provenance issues and how to verify sealed releases.
 
 Reporting
 - To report integrity or provenance issues, contact: syfcorp@proton.me
-- Include the release tag (e.g., `v0.2.1-canon`) and the artifact filenames in your report.
+- Include the release tag (for example `v0.2.1-canon`) and artifact filenames in your report.
 
-Provenance verification steps (summary)
-1. Download artifacts and `sha256sums.txt` and `sha256sums.txt.asc` from the release or `releases/checksums/`.
-2. Import the maintainer's public GPG key (`public.key`) and verify the checksum manifest:
+Provenance verification (summary)
+1. Download artifacts and the checksum manifest (e.g., `releases/checksums/sha256sums.txt`) and its signature (`sha256sums.txt.asc`).
+2. Import the maintainer's public GPG key:
    - `gpg --import public.key`
+3. Verify the checksum manifest signature:
    - `gpg --verify sha256sums.txt.asc sha256sums.txt`
-3. Verify artifact checksums:
+4. Verify artifact checksums:
    - `sha256sum -c sha256sums.txt`
 
-Signing keys
-- The canonical maintainer public key fingerprint will be listed in `releases/ATTESTATION.md`.
-
 Notes
-- The SYF law content is canonical and sealed; this file is informational and non-canonical.
+- The canonical law text and documents are sealed and must not be changed without a formal SYF Core audit; this file is informational and non-canonical.
+- This repository intentionally keeps provenance artifacts (checksums, signatures, public key) separate from canonical law documents.
