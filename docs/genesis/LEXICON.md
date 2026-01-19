@@ -1,4 +1,9 @@
 # LEXICON
+
+STATUS: CANON
+ROLE: SOURCE OF TRUTH
+SCOPE: SYF LAW — NON-INTERPRETABLE, NON-IMPLEMENTABLE
+
 ## Canonical Terms — SYF / Anathema / SYFA
 
 **ANNEX B — SYF Genesis Document**
@@ -63,6 +68,11 @@ The **thermodynamic kernel** implementing SYF.
 
 CoreXalt enforces invariants and FirePlank constraints.
 It is not exposed as part of the public proof surface.
+
+---
+
+### Event:
+Unitary, non-interpreted, non-semantic state change used solely for flow quantification.
 
 ---
 

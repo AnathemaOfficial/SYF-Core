@@ -1,5 +1,10 @@
 ![Status: CANONICAL / SEALED](https://img.shields.io/badge/STATUS-CANONICAL%20%2F%20SEALED-0b1c2d?style=for-the-badge)
 
+STATUS: CANON
+ROLE: SOURCE OF TRUTH
+SCOPE: SYF LAW — NON-INTERPRETABLE, NON-IMPLEMENTABLE
+ROLE: CANONICAL INDEX
+
 **Version:** SYF Genesis Bundle v0.2  
 **Sealed:** 2026-01-18  
 **Integrity:** SHA-256 checksums published

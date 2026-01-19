@@ -1,4 +1,9 @@
 # WHY MORAL LAWS FAIL
+
+STATUS: CANON
+ROLE: SOURCE OF TRUTH
+SCOPE: SYF LAW — NON-INTERPRETABLE, NON-IMPLEMENTABLE
+
 ## From Asimov to Structural Impossibility
 
 **ANNEX A — SYF Genesis Document**

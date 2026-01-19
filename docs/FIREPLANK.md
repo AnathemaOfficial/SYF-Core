@@ -1,5 +1,9 @@
 # FirePlank — Systemic Safety Floor
 
+STATUS: CANON
+ROLE: SOURCE OF TRUTH
+SCOPE: SYF LAW — NON-INTERPRETABLE, NON-IMPLEMENTABLE
+
 **Layer**: SYF Core  
 **Status**: Canonical · v0.1-docs
 

@@ -1,5 +1,9 @@
-> **NON-CANON (Appendix)**
->
+> **(Appendix)**
+
+STATUS: NON-CANON
+ROLE: GUARD / VALIDATION SPEC
+SCOPE: NOT PART OF SYF LAW
+
 > This document describes SYFBOT operational policy. It is **not** part of SYF Core (SyFF/R/FirePlank) and is included only as reference material.
 
 # SYFBOT — Systemic Fire Law Guardian

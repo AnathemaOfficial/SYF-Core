@@ -1,5 +1,9 @@
 # SYF_CORE
 
+STATUS: CANON
+ROLE: SOURCE OF TRUTH
+SCOPE: SYF LAW — NON-INTERPRETABLE, NON-IMPLEMENTABLE
+
 **Name**: Systemic Fire Law — Core Specification  
 **Status**: Canonical · Core Layer (Kernel-equivalent)  
 **License**: MIT  

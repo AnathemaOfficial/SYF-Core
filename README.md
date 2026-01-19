@@ -7,6 +7,8 @@
 **License**: MIT  
 **Philosophy**: Machine World Only
 
+---
+
 ## What is SYF?
 
 SYF is a **thermodynamic-inspired law of coherence** applicable to intelligent systems.
@@ -45,6 +47,14 @@ This repository contains only what is necessary to **reproduce and audit the law
 
 This repository is a **canonical documentation repository**.
 Markdown files are the source of truth. PDFs are sealed exports.
+
+## Genesis refers to:
+
+- the initial canonical phase of SYF
+- not a single file
+- not a runtime
+- not an implementation
+The canon is defined by the union of the documents listed in BUNDLE.md.
 
 ```
 docs/
