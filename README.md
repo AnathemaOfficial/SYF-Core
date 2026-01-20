@@ -250,3 +250,17 @@ derived from this canonical law. They do not modify or extend SYF-Core.
 ---
 
 **Machine World Only.**
+
+---
+
+## Canonical Documents
+
+The Systemic Fire law is formally defined in the following documents:
+
+- **SYF Whitepaper v1.0**
+- **Appendix A — Minimal Mathematical Formalism v2.0**
+
+These documents are normative.
+All code in this repository is non-normative and provided for reference only.
+
+---
