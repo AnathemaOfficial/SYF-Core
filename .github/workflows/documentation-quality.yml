@@ -19,14 +19,14 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '20.11.1'
         
     - name: Install markdownlint-cli
       run: npm install -g markdownlint-cli
       
     - name: Run markdownlint
       run: |
-        markdownlint '**/*.md' --ignore node_modules --config .markdownlint.json || true
+        markdownlint '**/*.md' --ignore node_modules --config .markdownlint.json
       continue-on-error: true
       
   link-checker:
@@ -40,14 +40,14 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '20.11.1'
         
     - name: Install markdown-link-check
       run: npm install -g markdown-link-check
       
     - name: Check links in markdown files
       run: |
-        find . -name "*.md" -not -path "./node_modules/*" -exec markdown-link-check {} \; || true
+        find . -name "*.md" -not -path "./node_modules/*" -exec markdown-link-check {} \;
       continue-on-error: true
       
   structure-validation:

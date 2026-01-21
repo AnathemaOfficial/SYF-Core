@@ -73,7 +73,7 @@ else
             if [ -f "$pdf_file" ]; then
                 echo "Verifying $filename.pdf..."
                 
-                expected=$(cat "$checksum_file" | awk '{print $1}')
+                expected=$(awk '{print $1}' "$checksum_file")
                 actual=$(sha256sum "$pdf_file" | awk '{print $1}')
                 
                 if [ "$expected" == "$actual" ]; then
