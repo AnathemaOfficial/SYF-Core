@@ -10,3 +10,10 @@ Thumbs.db
 *.pyc
 __pycache__/
 node_modules/
+
+# Scripts temporary files
+scripts/*.log
+scripts/tmp/
+
+# Markdown linting
+.markdownlint-cli2.jsonc

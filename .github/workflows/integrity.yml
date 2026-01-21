@@ -1,0 +1,33 @@
+name: Integrity Verification
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  verify-checksums:
+    name: Verify PDF Checksums
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Verify integrity
+      run: |
+        chmod +x scripts/verify-integrity.sh
+        ./scripts/verify-integrity.sh
+        
+    - name: Report status
+      if: success()
+      run: echo "✅ All integrity checks passed"
+      
+    - name: Report failure
+      if: failure()
+      run: |
+        echo "❌ Integrity verification failed!"
+        echo "This may indicate tampering with sealed canonical documents."
+        exit 1
