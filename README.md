@@ -18,8 +18,9 @@ It is a **mathematical law made executable**.
 
 ## Core Postulate
 
-> **Intelligence is not a safety mechanism.**  
-> Safety cannot rely on cognition, alignment, or intentions—only on structural limits and impossibilities.
+> **It defines mathematical invariants that render certain actions structurally impossible, 
+regardless of intelligence, intent, or context.**  
+
 
 ## Core Components
 
