@@ -18,8 +18,7 @@ It is a **mathematical law made executable**.
 
 ## Core Postulate
 
-> **It defines mathematical invariants that render certain actions structurally impossible, 
-regardless of intelligence, intent, or context.**  
+> **SYF defines mathematical invariants that make certain actions structurally impossible.**  
 
 
 ## Core Components
