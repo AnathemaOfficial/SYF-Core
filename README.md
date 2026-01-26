@@ -9,12 +9,15 @@
 
 ---
 
-## What is SYF?
+### What is SYF?
 
 SYF is a **thermodynamic-inspired law of coherence** applicable to intelligent systems.
 
-It is **not software**, **not a product**, and **not a framework**.  
+SYF acts as an autonomous coherence constraint, preventing incoherent system states by construction.
+
+It is **not software**, **not a product**, and **not a framework**.
 It is a **mathematical law made executable**.
+
 
 ## Core Postulate
 
