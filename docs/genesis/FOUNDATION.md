@@ -162,5 +162,5 @@ That is the SYF foundation.
 
 **Status:** CANONICAL — SEALED  
 **Version:** SYF-Genesis-Bundle v0.2  
-**Audit:** Dr Zero Cross-Document Verification — VALIDATED  
+**Audit:** KIMI (automated verification) — VALIDATED
 **Modification:** Prohibited without SYF Core audit

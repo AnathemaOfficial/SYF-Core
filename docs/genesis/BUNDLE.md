@@ -90,5 +90,5 @@ without violating canonical status.
 ---
 
 **Status:** CANONICAL — SEALED  
-**Audit:** Dr Zero Cross-Document Verification — VALIDATED  
+**Audit:** KIMI (automated verification) — VALIDATED
 **Modification:** Prohibited without SYF Core audit

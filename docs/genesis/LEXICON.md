@@ -16,7 +16,10 @@ These definitions are **normative**. Any divergent usage is non-canonical.
 ---
 
 ### Systemic Fire Law (SYF)
-A **mathematical and thermodynamic law** defining invariant bounds on system behavior.
+
+SYF is a mathematical law defining invariant bounds on system behavior.
+Physical interpretations (e.g., thermodynamic) are external readings,
+not canonical dependencies.
 
 SYF is not a framework, protocol, governance layer, or software abstraction.
 It specifies what a system is **physically and mathematically incapable** of doing.
@@ -64,8 +67,7 @@ Fail-closed behavior is mandatory under SYF.
 ---
 
 ### CoreXalt
-The **thermodynamic kernel** implementing SYF.
-
+The **kernel implementing SYF invariants** in specific machine architectures.
 CoreXalt enforces invariants and FirePlank constraints.
 It is not exposed as part of the public proof surface.
 
@@ -84,7 +86,7 @@ It operates without self-directed expansion, identity, or persistent narrative.
 
 ---
 
-### Situated Thermodynamic Node
+### Situated Node
 A bounded system whose intelligence is expressed as **local capability**, not agency.
 
 Such a node reacts to real conditions without projecting speculative futures.
@@ -155,5 +157,5 @@ The SYF Genesis Document consists of:
 
 **Status:** CANONICAL — SEALED  
 **Version:** SYF-Genesis-Bundle v0.2  
-**Audit:** Dr Zero Cross-Document Verification — VALIDATED  
+**Audit:** KIMI (automated verification) — VALIDATED
 **Modification:** Prohibited without SYF Core audit
