@@ -1,0 +1,165 @@
+This appendix is intentionally non-normative.
+No value, unit, window, or parameter defined below
+has any authority over the SYF law.
+
+---
+
+## Non-Canonical Appendix — Illustrative Instrumentation
+
+This document has zero authority over SYF-Core.
+
+
+Note: This section is illustrative only and non-canonical; derivation of F, E, or K depends on the observed system and must not violate the core axioms.
+
+---
+
+### Purpose
+
+SYF-Core defines a law-bearing invariant, not a product or framework.  
+To allow immediate experimentation and testing, we provide a non-canonical minimal instrumentation that demonstrates how SYF can be instantiated in practice without altering the law.
+
+**This implementation is illustrative only.**  
+The law remains the invariant form: `R = (F × E) / K`
+
+---
+
+### 1. Minimal Instrumentation (for testing & exploration)
+
+⚠️ **Non-Canon — for experimentation only**
+
+#### Time Window
+- **Δt** = 1 second
+
+#### Flow (F)
+- **Definition**: Number of system events observed during Δt
+- **Unit**: events / second
+- **Type**: unsigned integer
+- **Examples**: incoming requests, state transitions, messages processed, tokens generated
+
+#### Entropy (E)
+- **Definition**: Normalized Shannon entropy of event types over a sliding window
+- **Window size**: N = 256 events (configurable)
+- **Range**: E ∈ [0, 1]
+- **Formula**: `E = -Σ pᵢ log₂(pᵢ) / log₂(M)`
+  - Where `pᵢ` = probability of event type i
+  - Where `M` = number of distinct event types observed
+
+#### Stabilization Constant (K)
+- **Definition**: Fixed positive constant
+- **Scope**: Compile-time / immutable configuration
+- **Example**: K = 1000.0
+- **K must never change at runtime.**
+
+---
+
+### 2. SyFF Computation
+
+```
+R = (F × E) / K
+```
+
+- Pure function
+- No side effects
+- No state mutation
+- No optimization target
+
+---
+
+### 3. FirePlank (Continuity Constraint)
+
+**FirePlank is not a recovery mechanism.**
+
+#### Definition
+
+Define a minimum allowed output:
+```
+R_floor = 1e-6
+```
+
+#### Rule
+```
+if R < R_floor:
+    R = R_floor
+```
+
+- No memory restore
+- No restart
+- No correction
+- Output bounding only
+
+---
+
+### 4. Determinism Requirements
+
+- Identical event streams → equivalent R
+- Floating-point tolerance: ≤ 1 ULP (recommended)
+- No feedback from R into F or E
+- Emitting or logging R does not count as feedback
+
+---
+
+### 5. Test Vectors (Example)
+
+| F | E | K | Expected R |
+|---|---|---|------------|
+| 1000 | 0.5 | 1000.0 | 0.5 |
+| 500 | 1.0 | 1000.0 | 0.5 |
+| 0 | 0.0 | 1000.0 | R_floor |
+
+---
+
+### 6. What This Is Not
+
+- ❌ Not canon
+- ❌ Not "the" definition of Flow or Entropy
+- ❌ Not a governance layer
+- ❌ Not a safety promise
+- ❌ Not a control system
+
+---
+
+### 7. What This Enables
+
+- Immediate prototyping
+- Determinism tests
+- Comparative implementations
+- Stress testing of coherence boundaries
+- Domain-specific instantiations
+
+---
+
+### 8. Canonical Statement
+
+> SYF defines the invariant form.  
+> Instrumentations define how a system is observed.  
+> The law remains unchanged.
+
+---
+
+### 9. Next Step (Optional)
+
+Developers are encouraged to:
+
+1. Define domain-specific F/E
+2. Keep K immutable
+3. Preserve the axioms
+4. Publish their instantiation as **SYF-compatible**, not **SYF-canon**
+
+---
+
+---
+
+## Related Work (Non-Canonical)
+
+The following repositories provide experimental and reference material
+derived from this canonical law. They do not modify or extend SYF-Core.
+
+- **SYF-Lab** — Experimental and observational framework  
+  https://github.com/AnathemaOfficial/SYF-Lab
+
+- **SYF-Minimal** — Non-canonical reference implementation  
+  https://github.com/AnathemaOfficial/SYF-Minimal
+
+---
+
+**Machine World Only.**
