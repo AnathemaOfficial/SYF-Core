@@ -40,6 +40,7 @@ It is a **mathematical law made executable**.
 - A token or economic model
 - A dashboard, pipeline, or service
 - Any system that requires human interpretation
+- A feedback, learning, or optimization loop
 
 ## Open Source Rationale
 
@@ -99,16 +100,21 @@ We seek logical and structural critique, not adoption metrics.
 
 ---
 
-## On Experimentation
+### Related Repositories
 
-SYF-Core defines a law, not an implementation.
+SYF-Core defines the law only.
 
-Illustrative and experimental instantiations
-exist outside this repository.
+Experimental, illustrative, or executable instantiations exist outside this repository:
 
-See:
-- SYF-Lab
-- SYF-Minimal 
+- **SYF-Lab**  
+  https://github.com/AnathemaOfficial/SYF-Lab  
+  Observation protocols, signal transport (FRAME-R), and experimental instrumentation.
+
+- **SYF-Minimal**  
+  https://github.com/AnathemaOfficial/SYF-Minimal  
+  Minimal, deterministic reference implementations and test vectors for the SYF invariant.
+
+If an experiment contradicts the law, the experiment is invalid — not the law.
 
 ---
 
