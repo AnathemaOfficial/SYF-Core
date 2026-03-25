@@ -2,7 +2,7 @@
 
 STATUS: CANON
 ROLE: SOURCE OF TRUTH
-SCOPE: SYF LAW — NON-INTERPRETABLE, NON-IMPLEMENTABLE
+SCOPE: SYF LAW - NON-INTERPRETABLE, NON-IMPLEMENTABLE
 ROLE: CANONICAL INDEX
 
 **Version:** SYF Genesis Bundle v0.2  
@@ -27,7 +27,7 @@ It is a **law-level specification** that can be implemented, audited, and verifi
 
 The primary canonical specification of the Systemic Fire Law is located in:
 
-/docs/genesis/
+`/docs/genesis/`
 
 Including:
 - FOUNDATION.md
@@ -35,7 +35,7 @@ Including:
 - LEXICON.md
 - BUNDLE.md
 
-Other documents in /docs provide supporting axioms and historical context.
+Other documents in `/docs` provide supporting axioms and historical context.
 
 ---
 
@@ -64,12 +64,12 @@ This repository hosts the **canonical documentation** of the Systemic Fire Law a
 Sealed, shareable PDF exports are provided under:
 
 ```
-/releases/genesis/
+/docs/releases/genesis/
 ```
 
 These include:
-- **SYF_Genesis_Foundation_v0.1.pdf** — full Genesis document
-- **SYF_Genesis_Public_Short_v1.0.pdf** — short public version
+- **SYF_Genesis_Foundation_v0.1.pdf** - full Genesis document
+- **SYF_Genesis_Public_Short_v1.0.pdf** - short public version
 
 PDFs are **derivative artifacts**. The `.md` files remain the source of truth.
 
@@ -94,7 +94,7 @@ This repository contains **sealed documents**.
 Any modification requires:
 - explicit versioning,
 - SYF Core audit,
-- and update of `docs/BUNDLE.md`.
+- and update of `docs/genesis/BUNDLE.md`.
 
 Unreviewed changes are non-canonical.
 
@@ -102,18 +102,17 @@ Unreviewed changes are non-canonical.
 
 ## Status
 
-- **SYF FOUNDATION**: v0.1 — SEALED
-- **WHY MORAL LAWS FAIL**: v0.1 — SEALED
-- **LEXICON**: v0.1 — CANONICAL
+- **SYF FOUNDATION**: v0.1 - SEALED
+- **WHY MORAL LAWS FAIL**: v0.1 - SEALED
+- **LEXICON**: v0.1 - CANONICAL
 
 ---
 
 ## License
 
-See `LICENSE` and `NOTICE` for usage terms.
+See `LICENSE` for usage terms.
 
 ---
 
 **SYF does not promise safety.**  
 **It defines the conditions under which danger is impossible.**
-

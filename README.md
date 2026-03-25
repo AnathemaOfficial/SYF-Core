@@ -1,7 +1,6 @@
 ![Status: CANONICAL / SEALED](https://img.shields.io/badge/STATUS-CANONICAL%20%2F%20SEALED-0b1c2d?style=for-the-badge)
 
-
-# SYF — Systemic Fire Law
+# SYF - Systemic Fire Law
 
 **Status**: Canonical · v0.1-docs  
 **License**: MIT  
@@ -20,18 +19,16 @@ SYF acts as an autonomous coherence constraint, preventing incoherent system sta
 It is **not software**, **not a product**, and **not a framework**.
 It is a **mathematical law made executable**.
 
-
 ## Core Postulate
 
-> **SYF defines mathematical invariants that make certain actions structurally impossible.**  
-
+> **SYF defines mathematical invariants that make certain actions structurally impossible.**
 
 ## Core Components
 
-- **SyFF** — Systemic Fire Formula: `R = (F × E) / K`
-- **R** — Systemic Ratio (invariant output, measured, never optimized)
-- **FirePlank** — Safety floor (continuity constraint)
-- **Core Axioms** — No governance, no oracle, no feedback, no intent
+- **SyFF** - Systemic Fire Formula: `R = (F x E) / K`
+- **R** - Systemic Ratio (invariant output, measured, never optimized)
+- **FirePlank** - Safety floor (continuity constraint)
+- **Core Axioms** - No governance, no oracle, no feedback, no intent
 
 ## What SYF Is NOT
 
@@ -52,7 +49,7 @@ This repository contains only what is necessary to **reproduce and audit the law
 ## Structure
 
 This repository is a **canonical documentation repository**.
-Markdown files are the source of truth. PDFs are sealed exports.
+Markdown files are the source of truth. PDFs are sealed derivative exports.
 
 ## Genesis refers to:
 
@@ -60,41 +57,46 @@ Markdown files are the source of truth. PDFs are sealed exports.
 - not a single file
 - not a runtime
 - not an implementation
-The canon is defined by the union of the documents listed in BUNDLE.md.
+
+Within this public repository, the authoritative canonical index is
+`docs/genesis/BUNDLE.md`.
+The sealed Genesis canon is defined by the documents listed there.
 
 ```
 docs/
 ├── genesis/ # PRIMARY CANON (Genesis Layer)
-│ 	├── FOUNDATION.md # SYF foundational law
-│ 	├── WHY_MORAL_LAWS_FAIL.md
-│ 	├── LEXICON.md # Canonical vocabulary
-│ 	└── BUNDLE.md # Sealing & integrity manifest
+│   ├── FOUNDATION.md # SYF foundational law
+│   ├── WHY_MORAL_LAWS_FAIL.md
+│   ├── LEXICON.md # Canonical vocabulary
+│   └── BUNDLE.md # Sealing & integrity manifest
 │
 ├── SyFF.md # The formula (support canon)
 ├── R.md # The invariant output
 ├── FIREPLANK.md # The safety floor
 ├── CORE_AXIOMS.md # Non-negotiable constraints
 ├── SYF_CORE.md # Full technical specification
+├── appendix/ # Supporting or experimental documents (not part of the canonical law)
+│   └── SYFBOT_CANON.md # Guardian specification (non-canon)
 │
-└── appendix/ # Supporting or experimental documents. (Not part of the SYF canonical law.)
-	└── SYFBOT_CANON.md # Guardian specification (non-canon)```
-releases/
-├── genesis/
-│ 	├── SYF_Genesis_v0.2.pdf
-│ 	├── SYF_Genesis_Foundation_v0.1.pdf
-│ 	└── SYF_Genesis_Public_Short_v1.0.pdf
-│
-└── checksums/
-	├── SYF_Genesis_v0.2.sha256
-	├── SYF_Genesis_Foundation_v0.1.sha256
-	└── SYF_Genesis_Public_Short_v1.0.sha256
+└── releases/
+    ├── genesis/
+    │   ├── SYF_Genesis_v0.2.pdf
+    │   ├── SYF_Genesis_Foundation_v0.1.pdf
+    │   └── SYF_Genesis_Public_Short_v1.0.pdf
+    │
+    └── checksums/
+        ├── sha256sums.txt
+        ├── SYF_Genesis_v0.2.sha256
+        ├── SYF_Genesis_Foundation_v0.1.sha256
+        └── SYF_Genesis_Public_Short_v1.0.sha256
+```
 
 ## For Researchers
 
 This law is:
-- **Falsifiable** — test it, break it, prove it wrong
-- **Attackable** — find the edge cases
-- **Cold** — no hype, no narrative, no promises
+- **Falsifiable** - test it, break it, prove it wrong
+- **Attackable** - find the edge cases
+- **Cold** - no hype, no narrative, no promises
 
 We seek logical and structural critique, not adoption metrics.
 
@@ -114,18 +116,22 @@ Experimental, illustrative, or executable instantiations exist outside this repo
   https://github.com/AnathemaOfficial/SYF-Minimal  
   Minimal, deterministic reference implementations and test vectors for the SYF invariant.
 
-If an experiment contradicts the law, the experiment is invalid — not the law.
+If an experiment contradicts the law, the experiment is invalid - not the law.
 
 ---
 
 ## Canonical Documents
 
-The Systemic Fire law is formally defined in the following documents:
+Within this public repository, the normative Genesis bundle is indexed by
+`docs/genesis/BUNDLE.md` and consists of:
 
-- **SYF Whitepaper v1.0**
-- **Appendix A — Minimal Mathematical Formalism v2.0**
+- **FOUNDATION.md**
+- **WHY_MORAL_LAWS_FAIL.md**
+- **LEXICON.md**
 
-These documents are normative.
+Supporting documents under `docs/` extend context, terminology, and public
+reference material, but the Genesis bundle is the sealed canonical core.
+
 All code in this repository is non-normative and provided for reference only.
 
 ---

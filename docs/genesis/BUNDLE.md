@@ -2,7 +2,7 @@
 
 STATUS: CANON
 ROLE: SOURCE OF TRUTH
-SCOPE: SYF LAW — NON-INTERPRETABLE, NON-IMPLEMENTABLE
+SCOPE: SYF LAW - NON-INTERPRETABLE, NON-IMPLEMENTABLE
 
 ## Canonical Sealing Manifest
 
@@ -22,17 +22,17 @@ The SYF Genesis Bundle v0.2 consists of the following documents:
 
 ### Foundation Layer
 - **FOUNDATION.md**  
-  Status: CANONICAL — SEALED  
+  Status: CANONICAL - SEALED  
   Role: Foundational law defining SYF, Anathema, and SYFA
 
-### Annex A — Philosophical Layer
+### Annex A - Philosophical Layer
 - **WHY_MORAL_LAWS_FAIL.md**  
-  Status: CANONICAL — SEALED  
+  Status: CANONICAL - SEALED  
   Role: Structural critique of moral and intention-based safety models
 
-### Annex B — Lexical Layer
+### Annex B - Lexical Layer
 - **LEXICON.md**  
-  Status: CANONICAL — SEALED  
+  Status: CANONICAL - SEALED  
   Role: Normative vocabulary for all canonical terms
 
 These three documents form a single, inseparable canonical unit
@@ -59,10 +59,7 @@ PDF files are provided for distribution and archival purposes only.
 All released PDF artifacts are protected by **SHA-256 checksums**
 published under:
 
-/releases/checksums/
-
-yaml
-Copier le code
+`/docs/releases/checksums/`
 
 Any modification to a released artifact invalidates its canonical status.
 
@@ -89,6 +86,6 @@ without violating canonical status.
 
 ---
 
-**Status:** CANONICAL — SEALED  
-**Audit:** KIMI (automated verification) — VALIDATED
+**Status:** CANONICAL - SEALED  
+**Audit:** KIMI (automated verification) - VALIDATED
 **Modification:** Prohibited without SYF Core audit

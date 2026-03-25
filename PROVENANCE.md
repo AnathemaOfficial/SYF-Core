@@ -2,7 +2,7 @@
 
 STATUS: NON-CANON  
 ROLE: INTEGRITY & ORIGIN STATEMENT  
-SCOPE: REPOSITORY METADATA — NOT PART OF THE SYF LAW
+SCOPE: REPOSITORY METADATA - NOT PART OF THE SYF LAW
 
 ---
 
@@ -110,7 +110,11 @@ The Systemic Fire Law does **not** derive its authority from:
 - Consensus
 - Automation
 
-This repository is a **mirror and preservation surface**, not a source of authority.
+This repository is a **mirror and preservation surface**, not the origin of the
+law's authority.
+
+Within the public repository itself, the authoritative canonical index for the
+sealed Genesis bundle is `docs/genesis/BUNDLE.md`.
 
 ---
 
@@ -127,10 +131,9 @@ This principle is non-negotiable.
 
 ## Final Statement
 
-`SYF-Core` exists to make the law **inspectable**, **verifiable**, and **stable** —
+`SYF-Core` exists to make the law **inspectable**, **verifiable**, and **stable** -
 not to evolve it.
 
 Preservation over iteration.  
 Verification over interpretation.  
 Structure over intention.
-
