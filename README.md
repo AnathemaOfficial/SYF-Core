@@ -1,3 +1,6 @@
+
+<img width="256" height="256" alt="256 g" src="https://github.com/user-attachments/assets/8cc4960e-03d1-4367-a2e5-4de37b1ee6ff" />
+
 ![Status: CANONICAL / SEALED](https://img.shields.io/badge/STATUS-CANONICAL%20%2F%20SEALED-0b1c2d?style=for-the-badge)
 
 # SYF - Systemic Fire Law
