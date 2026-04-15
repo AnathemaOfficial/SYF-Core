@@ -1,0 +1,67 @@
+SYF-Core — Systemic Fire Law (canonical documentation repository)
+==================================================================
+
+Copyright 2025-2026 Technologies CoreXalt Inc.
+All Rights Reserved.
+
+This repository and its contents (documentation, canonical artifacts,
+checksums, and associated scripts — collectively, the "Work") are the
+property of Technologies CoreXalt Inc. ("CoreXalt"), a Québec corporation
+(incorporation via notary, 2026).
+
+Provenance and attribution
+--------------------------
+
+The Work was originally authored and developed by:
+
+  - Sébastien Bouchard ("Fireplank"), primary architect, original author,
+    and sole legal contributor at the time of initial publication.
+
+Initial authorship, editorial custody, and early publication occurred under
+the "SYF Core Foundation" stewardship banner of SYFCORP (informal operating
+name, 2025). On the formation of Technologies CoreXalt Inc. (2026), all
+rights, title, and interest in the Work — including copyrights, trade
+secrets, and any associated intellectual-property claims — were assigned
+to CoreXalt, superseding any prior stewardship attribution.
+
+License
+-------
+
+Unless explicitly stated otherwise for a specific file or directory, the
+Work is made available under the MIT License. See the LICENSE file at the
+root of this repository for the full license text.
+
+The MIT License grants permissive usage rights but does not waive
+authorship or copyright attribution. Redistributions of this Work — in
+source or binary form, in whole or in part — must retain this NOTICE file
+and the accompanying LICENSE file.
+
+Third-party components
+----------------------
+
+This repository contains no third-party software dependencies at the
+present time. Any future third-party additions will be enumerated in this
+section together with their respective licenses.
+
+Trademarks
+----------
+
+"SYF", "Systemic Fire Law", "Anathema", and related marks in use across
+the wider SYF ecosystem are unregistered trademarks of Technologies
+CoreXalt Inc. Use of these marks in derivative works, forks, or products
+requires prior written authorization.
+
+Contact
+-------
+
+For licensing inquiries, provenance verification, authorship questions, or
+any other matter concerning this NOTICE or the Work:
+
+    Technologies CoreXalt Inc.
+    Email: syfcorp@proton.me
+
+---
+
+This NOTICE file is provided in accordance with the attribution preservation
+requirements of the MIT License and adopts the conventions of the Apache
+Software Foundation NOTICE format for readability and downstream clarity.
