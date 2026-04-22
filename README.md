@@ -4,22 +4,60 @@
 
 # SYF - Systemic Fire Law
 
-**Status**: Canonical · v0.1-docs  
-**License**: MIT  
+**Status**: Canonical · v0.1-docs
+**License**: MIT
 **Philosophy**: Machine World Only
 
 ---
 
 ### What is SYF?
 
-SYF is a **mathematical law of coherence** applicable to intelligent systems.
+SYF-Core is the **upstream thermodynamic theory** of the SYF ecosystem.
 
-Any thermodynamic or physical interpretation is external, optional, and non-required.
+Its canonical expression is:
 
-SYF acts as an autonomous coherence constraint, preventing incoherent system states by construction.
+```text
+R = (F × E) / K
+```
 
-It is **not software**, **not a product**, and **not a framework**.
-It is a **mathematical law made executable**.
+Where:
+
+- **R** = Result
+- **F** = Focus
+- **E** = Effort
+- **K** = Complexity / chaos
+
+SYF-Core defines the foundational law layer from which the rest of the ecosystem derives.
+
+It is **not** an application runtime.
+It is **not** an execution membrane.
+It is **not** a product surface.
+It is **not** an actuation layer.
+
+### Thermodynamic status
+
+SYF-Core is not merely "inspired by" thermodynamics as a loose metaphor.
+
+Its canonical basis is **thermodynamic in principle**. The formula `R = (F × E) / K`
+must be understood as part of a thermodynamic theoretical foundation, not as an
+optional interpretive layer added afterwards.
+
+### Position in the ecosystem
+
+Canonical lineage:
+
+- **SYF-Core** — upstream thermodynamic theory (this repo)
+- **SYF-Gate** — structural admissibility primitive
+- **SYF-Shield** — capacity, progression, and irreversibility primitive
+- **Anathema-Breaker** — sealed synthesis of Gate and Shield into a resolution core
+- **SLIME-Core** — canonical execution membrane built from that core
+
+In short:
+
+- **SYF-Core** defines the upstream law.
+- **SYF-Gate** and **SYF-Shield** are intermediate primitives.
+- **Anathema-Breaker** is the sealed heart built from their synthesis.
+- **SLIME-Core** is the canonical execution membrane derived from that heart.
 
 ## Core Postulate
 
