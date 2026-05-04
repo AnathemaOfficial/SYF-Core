@@ -10,6 +10,23 @@
 
 ---
 
+## Public Engine Layer
+
+SYF-Core is part of the **public canonical engine layer** of the CoreXalt
+ecosystem:
+
+```text
+SYF-Core -> SYF-Gate -> SYF-Shield -> Anathema-Breaker -> SLIME-Core
+```
+
+This layer remains open so the law, lineage, and audit surface are inspectable.
+Applied systems built from these engines, including SAFA, SLIME-Enterprise, and
+SLIME-APP, are controlled product editions. Enterprise or government deployments
+are expected to be sealed, signed, SBOM-backed, and distributed separately from
+the public engine layer.
+
+---
+
 ### What is SYF?
 
 SYF-Core is the **upstream thermodynamic theory** of the SYF ecosystem.
