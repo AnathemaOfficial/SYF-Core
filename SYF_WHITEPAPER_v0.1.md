@@ -6,7 +6,7 @@
 
 Sébastien Bouchard  
 Independent Researcher — Canada  
-syfcorp@proton.me
+corexalt@proton.me
 
 January 2026
 

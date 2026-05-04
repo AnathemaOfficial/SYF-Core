@@ -138,7 +138,7 @@ Non-canonical documents clearly marked as "NON-CANON" or "APPENDIX".
 ### 4.1 Security Policy ✅ GOOD
 
 `.github/SECURITY.md` exists with:
-- ✅ Clear security contact: syfcorp@proton.me
+- ✅ Clear security contact: corexalt@proton.me
 - ✅ Provenance verification instructions
 - ✅ GPG signature verification process
 - ⚠️ Missing: Vulnerability disclosure timeline/SLA

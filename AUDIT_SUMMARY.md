@@ -228,7 +228,7 @@ The improvements I added enhance automation and make it easier for contributors 
 If you have questions about:
 - **The audit findings**: See `AUDIT_REPORT.md` for details
 - **Contributing**: See `CONTRIBUTING.md`
-- **Security**: Email syfcorp@proton.me per SECURITY.md
+- **Security**: Email corexalt@proton.me per SECURITY.md
 - **The law itself**: Read the canonical documents in `/docs/genesis/`
 
 ---

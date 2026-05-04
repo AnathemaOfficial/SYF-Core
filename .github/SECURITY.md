@@ -7,7 +7,7 @@ SCOPE: Verification and reporting only. Not part of SYF law.
 This file is non-canonical metadata describing how to report integrity or provenance issues and how to verify sealed releases.
 
 Reporting
-- To report integrity or provenance issues, contact: syfcorp@proton.me
+- To report integrity or provenance issues, contact: corexalt@proton.me
 - Include the release tag (for example `v0.2.1-canon`) and artifact filenames in your report.
 
 Provenance verification (summary)

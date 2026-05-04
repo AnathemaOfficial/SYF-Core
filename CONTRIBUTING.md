@@ -143,7 +143,7 @@ This means:
 ## Questions?
 
 - **Technical questions**: Open a discussion or issue
-- **Security issues**: Email syfcorp@proton.me
+- **Security issues**: Email corexalt@proton.me
 - **Canonical law questions**: Read the whitepaper first, then open an issue
 
 ## License
